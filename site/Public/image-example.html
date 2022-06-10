@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 180px;
+  text-align: left;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<h2>Image Text</h2>
+<p>How to place text over an image:</p>
+<img src ="https://images7.alphacoders.com/402/thumb-1920-402897.jpg"width = "1900" height ="980" alt = "one piece"><div>Always ONE PIECE</div></img>
+<div class="container">
+  <img src="https://images7.alphacoders.com/402/thumb-1920-402897.jpg" alt="Snow" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">
+    <div>
+  <ul>
+   <li>Full name : Monkey D Lufy</li>
+   <li>Role : Captain</li>
+   <li>Devil fruit : Gomu Gomu Nomi</li>
+   <li>Nick name : </li>
+   <li>Bounty : </li>
+  </ul>
+</div>
+  </div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
+
+</body>
+</html>
